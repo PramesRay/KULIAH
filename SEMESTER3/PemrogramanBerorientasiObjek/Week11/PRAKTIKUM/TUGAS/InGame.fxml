@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="600.0" />
+      <Label layoutX="253.0" layoutY="64.0" text="ROUND ">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="224.0" layoutY="126.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="X">
+         <effect>
+            <ColorAdjust contrast="1.0" />
+         </effect>
+      </Button>
+      <Button alignment="CENTER" layoutX="274.0" layoutY="126.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0">
+         <effect>
+            <ColorAdjust contrast="1.0" />
+         </effect>
+      </Button>
+      <Button alignment="CENTER" layoutX="324.0" layoutY="126.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0">
+         <effect>
+            <ColorAdjust contrast="1.0" />
+         </effect>
+      </Button>
+      <Button alignment="CENTER" layoutX="224.0" layoutY="173.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0">
+         <effect>
+            <ColorAdjust contrast="1.0" />
+         </effect>
+      </Button>
+      <Button alignment="CENTER" layoutX="274.0" layoutY="173.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="O">
+         <effect>
+            <ColorAdjust contrast="1.0" />
+         </effect>
+      </Button>
+      <Button alignment="CENTER" layoutX="324.0" layoutY="173.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0">
+         <effect>
+            <ColorAdjust contrast="1.0" />
+         </effect>
+      </Button>
+      <Button alignment="CENTER" layoutX="224.0" layoutY="223.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0">
+         <effect>
+            <ColorAdjust contrast="1.0" />
+         </effect>
+      </Button>
+      <Button alignment="CENTER" layoutX="274.0" layoutY="223.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0">
+         <effect>
+            <ColorAdjust contrast="1.0" />
+         </effect>
+      </Button>
+      <Button alignment="CENTER" layoutX="324.0" layoutY="223.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="X">
+         <effect>
+            <ColorAdjust contrast="1.0" />
+         </effect>
+      </Button>
+      <Label layoutX="79.0" layoutY="139.0" text="PLAYER 1">
+         <font>
+            <Font name="SansSerif Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="139.0" text="PLAYER 2">
+         <font>
+            <Font name="SansSerif Regular" size="14.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" editable="false" layoutX="63.0" layoutY="173.0" prefHeight="100.0" prefWidth="100.0">
+         <font>
+            <Font name="SansSerif Bold" size="40.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" editable="false" layoutX="437.0" layoutY="173.0" prefHeight="100.0" prefWidth="100.0">
+         <font>
+            <Font name="SansSerif Regular" size="40.0" />
+         </font>
+      </TextField>
+      <Label layoutX="332.0" layoutY="64.0" text="X">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="273.0" layoutY="326.0" mnemonicParsing="false" text="HOME">
+         <effect>
+            <ColorAdjust contrast="1.0" />
+         </effect>
+      </Button>
+      <Line endX="-33.0" endY="181.0" layoutX="307.0" layoutY="94.0" startX="-33.0" startY="30.999984741210938" strokeWidth="2.0" />
+      <Line endX="-33.0" endY="181.0" layoutX="357.0" layoutY="94.0" startX="-33.0" startY="30.999984741210938" strokeWidth="2.0" />
+      <Line endX="7.0" endY="120.99998474121094" layoutX="367.0" layoutY="104.0" startX="-143.0" startY="120.99998474121094" strokeWidth="2.0" />
+      <Line endX="7.0" endY="120.99998474121094" layoutX="367.0" layoutY="54.0" startX="-143.0" startY="120.99998474121094" strokeWidth="2.0" />
+      <Icon content="ARCHIVE" focusTraversable="true" layoutX="277.0" layoutY="276.0" prefHeight="50.0" prefWidth="43.0" />
+      <Line endX="100.0" layoutX="96.0" layoutY="125.0" startX="-67.4000244140625" startY="-1.52587890625E-5" strokeWidth="5.0" visible="false" />
+      <Line endX="100.0" layoutX="96.0" layoutY="302.0" startX="-67.4000244140625" startY="-1.52587890625E-5" strokeWidth="5.0" visible="false" />
+      <Line endX="-78.10711669921875" endY="-10.70709228515625" layoutX="106.0" layoutY="312.0" startX="-78.10711669921875" startY="-186.2928924560547" strokeWidth="5.0" visible="false" />
+      <Line endX="-78.10711669921875" endY="-10.70709228515625" layoutX="274.0" layoutY="312.0" startX="-78.10711669921875" startY="-186.2928924560547" strokeWidth="5.0" visible="false" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="23.0" layoutX="100.0" layoutY="110.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" visible="false" width="79.0" />
+      <Label layoutX="115.0" layoutY="113.0" text="WINNER" textFill="WHITE" visible="false">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="470.0" layoutY="125.0" startX="-67.4000244140625" startY="-1.52587890625E-5" strokeWidth="5.0" visible="false" />
+      <Line endX="100.0" layoutX="470.0" layoutY="302.0" startX="-67.4000244140625" startY="-1.52587890625E-5" strokeWidth="5.0" visible="false" />
+      <Line endX="-78.10711669921875" endY="-10.70709228515625" layoutX="480.0" layoutY="312.0" startX="-78.10711669921875" startY="-186.2928924560547" strokeWidth="5.0" visible="false" />
+      <Line endX="-78.10711669921875" endY="-10.70709228515625" layoutX="648.0" layoutY="312.0" startX="-78.10711669921875" startY="-186.2928924560547" strokeWidth="5.0" visible="false" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="23.0" layoutX="474.0" layoutY="110.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" visible="false" width="79.0" />
+      <Label layoutX="489.0" layoutY="113.0" text="WINNER" textFill="WHITE" visible="false">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

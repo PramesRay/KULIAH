@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .center{
+        text-align: center;
+      }
+    </style>
+
+    <title>Week3: Tugas1</title>
+  </head>
+  <body class = "center">
+    <h1>NILAI MUTU</h1><br>
+    <form name="angkamutu">
+      <p>Nilai: <input type="text" name="nilai" <br /></p>
+      <p>
+        <input
+          type="button"
+          value="Konversi"
+          name="convert"
+          onclick="konversi()" />
+      </p>
+      <p>Mutu: <input type="text" name="mutu" readonly</p>
+    </form>
+  </body>
+  <script>
+    function konversi() {
+      var val1 = document.angkamutu.nilai.value;
+      if (val1 <= 100 && val1 >= 81) document.angkamutu.mutu.value = "A";
+      else if (val1 < 81 && val1 >= 71) document.angkamutu.mutu.value = "AB";
+      else if (val1 < 70 && val1 >= 66) document.angkamutu.mutu.value = "B";
+      else if (val1 < 66 && val1 >= 61) document.angkamutu.mutu.value = "BC";
+      else if (val1 < 61 && val1 >= 56) document.angkamutu.mutu.value = "C";
+      else if (val1 < 56 && val1 >= 41) document.angkamutu.mutu.value = "D";
+      else if (val1 < 41 && val1 >= 1) document.angkamutu.mutu.value = "E";
+      else alert("ERROR!");
+    }
+  </script>
+</html>

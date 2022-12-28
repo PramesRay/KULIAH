@@ -1,0 +1,12 @@
+CREATE DATABASE mhs;
+
+use mhs;
+
+CREATE TABLE(
+	npm varchar (12), 
+	nama varchar(40), 
+	alamat varchar (100),
+	tgl_lhr date(), 
+	jk char(1), 
+	email varchar(50)
+	);

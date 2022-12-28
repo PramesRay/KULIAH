@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Pertemuan 6</title>
+  <style>
+    .center{
+      text-align: center;
+      justify-content:center;
+      background-color:rgb(227, 189, 0);
+    }
+
+    .tableCenter{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .noDecor{
+      text-decoration: none;
+    }
+
+  </style>
+
+</head>
+<body>
+  <h1 class="center">DATABASE MAHASISWA TEKNIK INFORMATIKA</h1>
+  <h3 class="center">- Angkatan 2021 -</h3>
+
+  <button onclick="location.href='create.php'">Create Data</button>
+  <br>
+
+  <table class="center tableCenter"> 
+    <thead>
+        <tr>
+            <th>NPM</th>
+            <th>NAMA</th>
+            <th>ALAMAT</th>
+            <th>TANGGAL LAHIR</th>
+            <th>JENIS KELAMIN</th>
+            <th>EMAIL</th>
+            <th>ACTION</th>
+        </tr>
+    </thead>
+    <tbody>
+      <?php 
+        $query = "SELECT * FROM identitas";
+        $statement = $conn->prepare($query);
+        $statement->execute();
+        $result = $statement->fetchAll(PDO::FETCH_ASSOC);
+        if($result){
+          foreach ($result as $row) {
+            echo "<tr>";
+            echo "<td>".$row['NPM']."</td>";
+            echo "<td>".$row['NAMA']."</td>";
+            echo "<td>".$row['ALAMAT']."</td>";	
+            echo "<td>".date('d-m-Y', strtotime($row['TGL_LAHIR']))."</td>";	
+            echo "<td>".$row['JK']."</td>";	
+            echo "<td>".$row['EMAIL']."</td>";	
+            echo "<td><a class="noDecor" href=\"update.php?npm=$row[NPM]\">Edit</a> | 
+                      <a class="noDecor" href=\"delete.php?npm=$row[NPM]\" 
+                          onClick=\"return confirm('Apakah anda yakin untuk delete?')\">Delete
+                      </a>
+                  </td>";	
+            echo "</tr>";	
+          }
+        }
+      ?>
+    </tbody>
+</table>
+</body>
+</html>

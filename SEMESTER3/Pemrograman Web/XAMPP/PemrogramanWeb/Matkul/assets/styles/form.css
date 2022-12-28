@@ -1,0 +1,14 @@
+textarea {
+    resize: none;
+}
+
+form {
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+
+    box-shadow: -1px 3px 5px 4px rgba(193,193,193,0.75);
+    -webkit-box-shadow: -1px 3px 5px 4px rgba(193,193,193,0.75);
+    -moz-box-shadow: -1px 3px 5px 4px rgba(193,193,193,0.75);
+}

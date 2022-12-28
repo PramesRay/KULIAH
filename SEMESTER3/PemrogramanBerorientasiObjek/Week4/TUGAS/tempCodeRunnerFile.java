@@ -1,0 +1,1 @@
+inputSystem.printId(inputSystem.getNama(), inputSystem.getGol());

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>STRUK PEMBAYARAN</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
+</head>
+<body>
+<div class="container">  
+   <div class="col-md-12">     
+    <center><h4>STRUK PEMBAYARAN</h4>
+    <h5>TOKO ALAT TULIS KANTOR BANDUNG<br/>Jalan Raya Bandung-Sumedang KM-21</h5>
+    </center>
+       <br/>
+    <table class="table">
+    <tr><td>TR.0001</td><td><center>KS.0001</center></td><td><div align="right">19 September 2022</div> </td>
+    </tr>
+    </table>  
+    <form name="barang" method="post">
+	<table class="table table-bordered table-striped">
+		<thead>
+			<tr>
+				<th>NO</th>
+				<th width="10%">KODE</th>
+				<th width="30%">NAMA BARANG</th>
+                <th width="10%">JUMLAH</th>	
+                <th width="10%">HARGA SATUAN</th>
+                <th width="30%">TOTAL</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+                <td>1.</td>
+				<td>K001</td>
+				<td>KERTAS HVS A4 80gr</td>
+				<td><input type="text" name="jml1"></td>
+                <td><input type="text" name="hrg1"></td>
+                <td><span id="tot1"></span></td>
+			</tr>
+            <tr>
+                <td>2.</td>
+				<td>K002</td>
+				<td>KERTAS HVS A4 70gr</td>
+				<td><input type="text" name="jml2"></td>
+                <td><input type="text" name="hrg2"></td>
+                <td><span id="tot2"></span></td>
+			</tr>
+            <tr>
+                <td>3.</td>
+				<td>S001</td>
+				<td>SPIDOL WHITE BOARD HITAM</td>
+				<td><input type="text" name="jml3"></td>
+                <td><input type="text" name="hrg3"></td>
+                <td><span id="tot3"></span></td>
+			</tr>
+            <tr>
+                <td>4.</td>
+				<td>L001</td>
+				<td>LAKBAN</td>
+				<td><input type="text" name="jml4"></td>
+                <td><input type="text" name="hrg4"></td>
+                <td><span id="tot4"></span></td>
+			</tr>
+            <tr>
+                <td>5.</td>
+				<td>B001</td>
+				<td>BATERE A2</td>
+				<td><input type="text" name="jml5"></td>
+                <td><input type="text" name="hrg5"></td>
+                <td><span id="tot5"></span></td>
+			</tr>
+		</tbody>
+	</table>
+    <div align="right">
+        <input type="button" class="btn btn-primary" onclick="tampil()" value="PROSES">
+    </div>  
+    </div>    
+        <br/>
+    <div class="col-md-6">
+    <table class="table">
+    <tr>
+        <td> Total Harga </td><td><span id="tot_hrg"></span></td>
+    </tr>    
+    <tr>
+        <td width="40%"> Total Diskon </td><td><span id="hrg_diskon"></span></td>
+    </tr>
+    <tr>
+        <td> Total Bayar </td><td><span id="bayar"></span></td>
+    </tr>
+    </table>
+     </div>    
+    </form>
+    </div>
+   <script src="fungsi2.js"> </script>
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

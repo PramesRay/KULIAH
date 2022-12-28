@@ -1,0 +1,127 @@
+<!--
+  Nama    : Prames Ray Lapian
+  NPM     : 140810210059
+  Desc    : Tugas PHP
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Identitas Mahasiswa</title>
+
+    <style>
+      body {
+        background-color: antiquewhite;
+        text-align: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form Identitas Mahasiswa</h1>
+    <form action="hasil.php" method="post">
+      <div class="mb-3">
+        <label for="npm">&nbsp;&nbsp;NPM:</label>
+        <input type="text" id="npm" name="npm" autocomplete="off" required />
+      </div>
+      <div class="mb-3">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" autocomplete="off" required />
+      </div>
+      <div class="mb-3">
+        <label for="alamat">Alamat:</label>
+        <textarea
+          name="alamat"
+          id="alamat"
+          rows="3"
+          autocomplete="off"
+          required></textarea>
+        &nbsp;
+      </div>
+      <div class="row mb-3 g-3">
+        <div class="col">
+          <label for="tmpt-lahir">&nbsp;Tempat Lahir:</label>
+          <input
+            type="text"
+            id="tmpt-lahir"
+            name="tmpt_lahir"
+            autocomplete="off"
+            required />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div class="col">
+          <label for="tgl-lahir">&nbsp;&nbsp;&nbsp;&nbsp;Tanggal Lahir:</label>
+          <input type="date" id="tgl-lahir" name="tgl_lahir" required />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="jenis-kelamin"></label>
+        <div id="genders">
+          <div>
+            &nbsp;&nbsp;Jenis Kelamin:
+            <input
+              type="radio"
+              id="laki"
+              class="btn-check"
+              name="jk"
+              value="Laki-Laki"
+              required />
+            <label for="laki">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  fill-rule="evenodd"
+                  d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z" />
+              </svg>
+              Laki-Laki
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="perempuan"
+              class="btn-check"
+              name="jk"
+              value="Perempuan" />
+            <label for="perempuan">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  fill-rule="evenodd"
+                  d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z" />
+              </svg>
+              Perempuan
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="hobby"></label>
+        <div id="input-hobby">
+          <div id="hobby-1" class="hobby">
+            Hobby: <input type="text" id="hobby" name="hobby[]" /> &nbsp;&nbsp;
+          </div>
+        </div>
+      </div>
+      <button name="submit" type="submit">Submit</button>
+    </form>
+
+    <script src="./assets/scripts/addHobby.js"></script>
+    <script src="./assets/scripts/deleteHobby.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>

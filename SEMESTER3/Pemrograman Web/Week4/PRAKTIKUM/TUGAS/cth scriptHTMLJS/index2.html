@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DAFTAR NILAI MAHASISWA</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
+</head>
+<body>
+<div class="container">  
+   <div class="col-md-12">     
+	<h4><center>DAFTAR NILAI MAHASISWA
+    <br />SEMESTER GANJIL 2020/2021</center></h4>
+    <p>NPM : 1400010001</p>
+    <p>NAMA : RUDI ROSADI</p>
+    <p>PROGRAM STUDI : S-1 TEKNIK INFORMATIKA</p>      
+    <form name="kks" method="post">
+	<table class="table table-bordered table-striped">
+		<thead>
+			<tr>
+				<th>No</th>
+				<th>SANDI</th>
+				<th>MATAKULIAH</th>
+                <th>SKS</th>	
+                <th>NILAI HURUF</th>	
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+                <td>1.</td>
+				<td>D10K.0400305</td>
+				<td>SISTEM DATABASE II</td>
+				<td>2</td>
+                <td><input type="text" name="nil1" id="nil1"></td>
+			</tr>
+            <tr>
+                <td>2.</td>
+				<td>D10K.0400503</td>
+				<td>ENTERPRENERSHIP</td>
+				<td>2</td>
+                <td><input type="text" name="nil2" id="nil2"></td>
+			</tr>
+            <tr>
+                <td>3.</td>
+				<td>D10A.3202</td>
+				<td>PEMROGRAMAN WEB</td>
+				<td>3</td>
+                <td><input type="text" name="nil3" id="nil3"></td>
+			</tr>
+            <tr>
+                <td>4.</td>
+				<td>D10G.3203</td>
+				<td>PEMROGRAMAN BERORIENTASI OBJEK</td>
+				<td>3</td>
+                <td><input type="text" name="nil4" id="nil4"></td>
+			</tr>
+            <tr>
+                <td>5.</td>
+				<td>D10G.3201</td>
+				<td>SISTEM OPERASI</td>
+				<td>3</td>
+                <td><input type="text" name="nil5" id="nil5"></td>
+			</tr>
+		</tbody>
+	</table>
+    <div align="right">
+        <input type="button" class="btn btn-primary" onclick="tampil()" value="PROSES">
+    </div>  
+    </div>    
+        <br/>
+    <div class="col-md-6">
+    <table class="table table-bordered">
+    <tr>
+    <td> Jumlah MataKuliah </td><td><input type="text" name="jml_kul"></td>
+    </tr>
+    <tr>
+    <td> Jumlah Pengambilan SKS </td><td><input type="text" name="jml_sks"></td>
+    </tr>    
+    <tr>
+    <td> IP (Indeks Prestasi)</td><td><input type="text" name="ip"></td>
+    </tr>
+    </table>
+     </div>    
+    </form>
+    </div>
+   <script src="fungsi1.js"> </script>
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

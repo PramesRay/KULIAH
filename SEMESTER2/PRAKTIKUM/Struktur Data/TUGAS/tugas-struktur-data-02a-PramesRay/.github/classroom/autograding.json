@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Mengembalikan dua kali nilai dengan pointer",
+      "setup": "",
+      "run": "make test spec=\"[case_1]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Mengembalikan string berisi karakter ke-3 dan ke-5",
+      "setup": "",
+      "run": "make test spec=\"[case_2]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Mencari panjang maksimum array",
+      "setup": "",
+      "run": "make test spec=\"[case_3]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Menukar dua elemen dalam array",
+      "setup": "",
+      "run": "make test spec=\"[case_4]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}

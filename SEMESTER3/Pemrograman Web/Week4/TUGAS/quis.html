@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .center {
+      text-align: center;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    .bgclr {
+      background-color: grey;
+    }
+
+    table,
+    th,
+    td {
+      border: 01px solid black;
+    }
+  </style>
+
+  <body>
+    <h2 class="center">DAFTAR NILAI MAHASISWA</h2>
+    <h2 class="center">SEMESTER GANJIL 2020/2021</h2>
+
+    <form name="input">
+      <label for="npm"
+        >NPM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:
+      </label>
+      <input type="text" id="npm" name="npm" /><br />
+      <label for="nama"
+        >Nama&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:</label
+      >
+      <input type="text" id="nama" name="nama" /><br />
+      <label for="prodi">Program Studi :</label>
+      <input type="text" id="prodi" name="prodi" /><br />
+
+      <table style="width: 100%">
+        <tr>
+          <td class="center bgclr"><b>NO</b>.</td>
+          <td class="center bgclr"><b>SANDI</b></td>
+          <td class="center bgclr"><b>MATAKULIAH</b></td>
+          <td class="center bgclr"><b>SKS</b></td>
+          <td class="center bgclr"><b>NILAI HURUF</b></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>D10K. 0400305</td>
+          <td>SISTEM DATABASE II</td>
+          <td class="center" id="sks1" name="sks1">2</td>
+          <td class="center">
+            <input type="text" name="NH1" style="text-align: center" />
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>D10K.0400503</td>
+          <td>ENTERPRENEURSHIP</td>
+          <td class="center" id="sks2" name="sks2">2</td>
+          <td class="center">
+            <input type="text" name="NH2" style="text-align: center" />
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>D10A.3202</td>
+          <td>PEMROGRAMAN WEB</td>
+          <td class="center" id="sks3" name="sks3">3</td>
+          <td class="center">
+            <input type="text" name="NH3" style="text-align: center" />
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>D10G.3203</td>
+          <td>PEMROGRAMAN BERORIENTASI OBJEK</td>
+          <td class="center" id="sks4" name="sks4">3</td>
+          <td class="center">
+            <input type="text" name="NH4" style="text-align: center" />
+          </td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>D10G.3201</td>
+          <td>SISTEM OPERASI</td>
+          <td class="center" id="sks5" name="sks5">3</td>
+          <td class="center">
+            <input type="text" name="NH5" style="text-align: center" />
+          </td>
+        </tr>
+      </table>
+
+      <label for="proses"> </label>
+      <input
+        type="button"
+        id="proses"
+        name="proses"
+        value="PROSES"
+        onclick="proses()" /><br />
+    </form>
+
+    <p>Jumlah Matakuliah &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 5</p>
+    <p>Jumlah Pengambilan SKS : <input type="text" name="sks" readonly /></p>
+    <p>
+      IP &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+      &nbsp;: <input type="text" name="ip" readonly />
+    </p>
+  </body>
+
+  <script>
+    function proses() {
+    	var val1 = document.input.NH1.value;
+      var val2 = document.input.NH2.value;
+      var val3 = document.input.NH3.value;
+      var val4 = document.input.NH4.value;
+      var val5 = document.input.NH5.value;
+
+      var sks1 = document.input.sks1.value;
+      var sks2 = document.input.sks2.value;
+      var sks3 = document.input.sks3.value;
+      var sks4 = document.input.sks4.value;
+      var sks5 = document.input.sks5.value;
+
+      var totalsks = 2+2+3+3+3;
+
+      if (val1 == "A")
+        parseInt(val1) = 4;
+      else if (val1 == "B")
+        parseInt(val1) = 3;
+    	else if (val1 == "C")
+        parseInt(val1) = 2;
+      else if (val1 == "D")
+        parseInt(val1) = 1;
+      else if (val1 == "E")
+        parseInt(val1) = 0;
+
+      if (val2 == "A")
+        parseInt(val2) = 4;
+      else if (val2 == "B")
+        parseInt(val2) = 3;
+    	else if (val2 == "C")
+        parseInt(val2) = 2;
+      else if (val2 == "D")
+        parseInt(val2) = 1;
+      else if (val2 == "E")
+        parseInt(val2) = 0;
+
+      if (val3 == "A")
+        parseInt(val3) = 4;
+      else if (val3 == "B")
+        parseInt(val3) = 3;
+    	else if (val3 == "C")
+        parseInt(val3) = 2;
+      else if (val3 == "D")
+        parseInt(val3) = 1;
+      else if (val3 == "E")
+        parseInt(val3) = 0;
+
+      if (val4 == "A")
+        parseInt(val4) = 4;
+      else if (val4 == "B")
+        parseInt(val4) = 3;
+    	else if (val4 == "C")
+        parseInt(val4) = 2;
+      else if (val4 == "D")
+        parseInt(val4) = 1;
+      else if (val4 == "E")
+        parseInt(val4) = 0;
+
+      if (val5 == "A")
+        parseInt(val5) = 4;
+      else if (val5 == "B")
+        parseInt(val5) = 3;
+      else if (val5 == "C")
+        parseInt(val5) = 2;
+      else if (val5 == "D")
+        parseInt(val5) = 1;
+      else if (val5 == "E")
+         parseInt(val5) = 0;
+
+      document.input.sks.value = totalsks;
+
+    	document.input.ip.value = ((((val1*2)/totalsks) + ((val2*2)/totalsks) + ((val3*3)/totalsks) + ((val4*3)/totalsks) + ((val5*3)/totalsks)) / 5);
+    }
+  </script>
+</html>

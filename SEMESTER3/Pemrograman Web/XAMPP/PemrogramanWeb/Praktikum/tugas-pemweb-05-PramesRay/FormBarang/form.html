@@ -1,0 +1,78 @@
+<!--
+  Nama    : Prames Ray Lapian
+  NPM     : 140810210059
+  Desc    : Tugas PHP
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 1 Pertemuan 5</title>
+  </head>
+  <body>
+    <h1>"SAYANG ANAK... SAYANG ANAK..."</h1>
+    <h4>Dibeli...dibeli...dibeli</h4>
+    <form action="hasil_form.php" method="POST">
+      <h2>Form Pembelian</h2>
+      <table>
+        <tr>
+          <td><label for="nama">Nama Lengkap &emsp;</label> </td>
+          <td>: <input type="text" id="nama" name="nama" autocomplete="off" required /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email &emsp;</label></td>
+          <td>: <input type="email" id="email" name="email" placeholder="example123@gmail.com" autocomplete="off" required /></td>
+        </tr>
+        <tr>
+          <td><label for="telp">No. Telepon / Whatsapp &emsp;</label></td>
+          <td>: <input type="text" id="telp" name="telp" placeholder="08xx-xxxx-xxxx" autocomplete="off" required /></td>
+        </tr>
+        <tr>
+          <td>Alamat &emsp;</td>
+          <td>: <textarea id="alamat" name="alamat" placeholder="dimana rumahmu?" autocomplete="off" required></textarea></td> 
+        </tr>
+        <tr>
+          <td>Pilih Barang &emsp;</td>
+          <td>: 
+                  <input type="checkbox" id="MSI_Katana_GF66-12U" name="chart[]" value="MSI_Katana_GF66-12U"/>
+                  <label for="chart1">MSI Katana GF66-12U - Rp 22.000.000 </label><br>
+            &ensp;<input type="checkbox" id="HP_OMEN_16_Series" name="chart[]" value="HP_OMEN_16_Series"/>
+                  <label for="chart2">HP OMEN 16 Series - Rp 25.000.000 </label><br>
+            &ensp;<input type="checkbox" id="MSI_Stealth_15M" name="chart[]" value="MSI_Stealth_15M"/>
+                  <label for="chart3">MSI Stealth 15M - Rp 26.000.000 </label><br>
+            &ensp;<input type="checkbox" id="LENOVO_Legion_5i_Pro" name="chart[]" value="LENOVO_Legion_5i_Pro"/>
+                  <label for="chart4">LENOVO Legion 5i Pro - Rp 34.000.000 </label><br>
+            &ensp;<input type="checkbox" id="ASUS_ROG_Flow_Z13" name="chart[]" value="ASUS_ROG_Flow_Z13"/>
+                  <label for="chart5">ASUS ROG Flow Z13 - Rp 35.000.000 </label><br>
+            &ensp;<input type="checkbox" id="MSI_Vector_GP66" name="chart[]" value="MSI_Vector_GP66"/>
+                  <label for="chart6">MSI Vector GP66 - Rp 35.500.000 </label><br>
+            &ensp;<input type="checkbox" id="ASUS_ROG_Strix_G15_(2022)" name="chart[]" value="ASUS_ROG_Strix_G15_(2022)"/>
+                  <label for="chart7">ASUS ROG Strix G15 (2022) - Rp 37.000.000 </label><br>
+            &ensp;<input type="checkbox" id="ASUS_ROG_Zephyrus_M16" name="chart[]" value="ASUS_ROG_Zephyrus_M16"/>
+                  <label for="chart8">ASUS ROG Zephyrus M16 - Rp 43.000.000 </label><br>
+            &ensp;<input type="checkbox" id="LENOVO_Legion_7" name="chart[]" value="LENOVO_Legion_7"/>
+                  <label for="chart9">LENOVO Legion 7 - Rp 46.000.000 </label><br>
+            &ensp;<input type="checkbox" id="ASUS_ROG_Strix_Scar_15_(2022)" name="chart[]" value="ASUS_ROG_Strix_Scar_15_(2022)"/>
+                  <label for="chart10">ASUS ROG Strix Scar 15 (2022) - Rp 66.000.000  </label><br>
+            &ensp;<input type="checkbox" id="ASUS_ROG_Zephyrus_Duo_15_SE_GX551" name="chart[]" value="ASUS_ROG_Zephyrus_Duo_15_SE_GX551"/>
+                  <label for="chart11">ASUS ROG Zephyrus Duo 15 SE GX551 - Rp 66.000.000 </label><br>
+            &ensp;<input type="checkbox" id="MSI_GE76_Raider-12U" name="chart[]" value="MSI_GE76_Raider-12U"/>
+                  <label for="chart12">MSI GE76 Raider-12U - Rp 72.000.000 </label><br>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="payment">Metode Pembayaran &emsp;</label></td>
+          <td>: 
+            <input type="radio" name="payment" id="Cash" value="Cash" autocomplete="off" required/> Cash 
+            <input type="radio" name="payment" id="E-Wallet" value="E-Wallet" autocomplete="off" /> E-Wallet
+          </td>
+        </tr>
+      </table>
+      <br>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

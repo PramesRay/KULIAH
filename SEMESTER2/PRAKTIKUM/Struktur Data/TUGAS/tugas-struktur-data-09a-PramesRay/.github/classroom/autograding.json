@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "dapat mengisi tree",
+      "setup": "",
+      "run": "make test spec=\"[case_1]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "dapat melakukan dfs traversal",
+      "setup": "",
+      "run": "make test spec=\"[case_2]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "dapat melakukan bfs traversal",
+      "setup": "",
+      "run": "make test spec=\"[case_3]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "dapat menentukan lowest common ancestor",
+      "setup": "",
+      "run": "make test spec=\"[case_4]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "dapat menginversi tree",
+      "setup": "",
+      "run": "make test spec=\"[case_5]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}

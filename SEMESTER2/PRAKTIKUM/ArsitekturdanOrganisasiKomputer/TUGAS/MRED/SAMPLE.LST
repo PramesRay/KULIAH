@@ -1,0 +1,8 @@
+| This file is a sample file list for the editor.
+|
+|  The "|" char (as you can tell) is the comment character
+|
+\EDIT\PAS\*.INT		| Uses all interface files
+\EDIT\ASM\*.INC		| and all asm include files
+!SUPPRTMD.INT		| But not supprtmd.int from the current directory
+

@@ -1,0 +1,63 @@
+
+
+
+		      Detab  Documentation -- Version 2.1
+
+	      Detab expands all the tabs in an ascii file to spaces
+	 and oh boy is it fast!!
+
+	      Detab can run in two modes, command line and prompt.  If
+	 you leave the command line blank, you will be prompted for
+	 the input and output filenames (they can be the same).  The
+	 command line mode format is:
+
+	      DETAB [ Input.fil [ Output.fil ] ]
+
+	 Where Output.fil can be left off to put output into the
+	 input.fil.  If Input.fil is left off you will be prompted for
+	 the filenames.
+
+	      Detab also accepts wild cards, for example DETAB *.PAS
+	 will expand all the tabs in all the .Pas files in the current
+	 directory.
+
+	      Detab can also be run with redirection.  For example:
+
+	      DETAB <Input.fil
+
+	 would set the detabbed file onto the screen.  If Detab
+	 determines that the input is being redirected the output will
+	 be directed to the screen regardless of any other command
+	 line parameters.
+
+	      Some editors and other utilities do not use the Dos
+	 standard of eight spaces per tab.  In order to get around
+	 this limitation Detab has a command line switch (/nn).  This
+	 switch tells Detab how many spaces to use per tab.  If the
+	 switch is not specified the default is eight spaces per tab.
+	 For example if a different editor put four spaces per tab and
+	 you wanted to use Mister ED (which you now realize if far
+	 superior), the following command will move you up in the
+	 world:
+
+	      DETAB Lesser.fil Better.fil /4
+
+
+
+
+
+
+         HISTORY
+         -------
+
+	 02/28/85 - 1.0   - Created the first version.
+
+	 03/26/87 - 2.0   - Added the ability to set the tab size,
+			    and handle redirection.
+
+	 01/08/90 - 2.1   - Now the full file is scanned, Detab no
+			    longer just stops at the first control
+			    Z (end of file marker) in the last
+			    buffer.
+
+

@@ -1,0 +1,512 @@
+			   RELEASE NOTES
+
+This file contains information of interest to users who are upgrading from
+previous versions of Mister ED.  The latest changes are marked with a "|" in   |
+the far right column.  The features mentioned in this file are described in    |
+full detail in the manual (MANUAL.EXE).					       |
+
+If you are new to Mister ED, then you need not read this file.
+
+Useful Tips
+-----------
+þ When entering data for prompts you can use <Ctrl-Return> to initiate
+  the command.	This can be very useful for menus with lots of prompts
+  (like the menus associated with Environment, Browse, Search and Replace
+  commands).
+
+þ Did you know that you can search for multiple patterns.  This is done
+  by delimiting each pattern with the "|" character.  For example,
+  to search for the words "this" or "that" you would type "this|that".
+
+þ When you invoke Mister ED you can also specify a line number, to go to,
+  after the file name.	This works well with the assembler and compiler.
+
+þ You can use the SET command to specify a default file name (or file
+  mask) to load.  For example, typing "SET ED=TYPES.INT" would cause
+  Mister ED to try to load the file "TYPES.INT" upon invocation of itself
+  (providing no file name was specified).
+
+þ Learn to master the concept of file lists.  They can be very powerful.
+  Especially on projects with lots of source files.
+
+  Did you know that?
+
+  -  You can create a file list in "screen mode" by simply typing in the
+     names or masks of the files to be included in the file list and then
+     using "select mode" to select them.
+
+  -  When using the "load" file command you can "load" a file list by
+     putting the "@" character in front of the file name that contains
+     the file list.
+
+  -  You can build a file list via the Browse command.
+
+  -  You can tailor a file list to a be a select group of file names via
+     the "load file" command or the "file select" command (<Shift-F2>).
+
+  -  You can use <Ctrl-Plus> (the plus sign on the numeric key pad) and
+     <Ctrl-Minus> (also on key pad) keys to "load" the next or previous
+     file in the file list.
+
+  -  You can get help describing the capabilities just listed by
+     requesting help when using the commands and modes that are
+     affiliated with file lists.
+
+
+			      ******************
+			      *  Version  2.4  *
+			      ******************
+
+Browse
+------
+þ Multiple file masks.
+
+þ If no file is specified "*.*" is assumed.
+
+þ New option to pause after each pattern found.
+
+þ New option to send the output to the current window.
+
+þ The option to send the output to a device has been removed.
+
+þ The completion status lines has been modified.
+
+
+Compare Mode
+------------
+þ The cursor is now positioned on the characters that didn't match.
+
+þ The option prompts (ignore white space and case) have been moved to the
+  Environment command.
+
+þ The synchronization command (<ctrl-s>) will start scanning backwards if
+  the forward scan was unsuccessful.
+
+þ <ctrl+> and <ctrl-> work in compare-link mode with file lists.
+
+þ Windows that are "closed" or "hidden" are excluded from the compare.
+
+þ You can now delete a line in Compare Mode.
+
+þ You can do a horizontal scroll in Compare-Link mode.
+
+þ There must be at least one space between both tokens when ignoring white
+  space.
+
+
+Dos Command Line
+----------------
+þ ED [FileName [r+] ["Search Pattern" || [Line Number][,Column Number]]]       |
+  This can be repeated up to nine times.
+
+þ Can set up default parameters with the "SET" command (i.e. SET ED=
+  *.PAS "Procedure").
+
+þ "/I" to specify the source file include search path.
+
+þ The first file in a "file list" will be loaded.
+
+þ If Mister ED knows how to keep the video mode the video card is in, it
+  will.  This allows you to use non-standard text modes if you video card
+  supports them and lets the BIOS know.  For example my EGA card can do
+  132x44, and Mister ED can support it too, if I put the video card into
+  132x44 line mode first.
+
+
+Drawing Mode
+------------
+þ You can use <shift> with the keypad to erase characters.
+
+þ You can use <ctrl> with the keypad for cursor movement.
+
+
+Dropping a Window
+-----------------
+þ You can "drop" more than one window by separating the window numbers
+  with commas (i.e. 1,3,7) or by entering a range (i.e. 3-6).
+
+þ If no window number is specified when dropping a window the current window
+  will be dropped.
+
+þ If the last window is dropped then Mister ED will exit.
+
+
+Environment
+-----------
+þ Option to make <Home> and <End> "static" (the cursor isn't moved to the
+  previous line or the next line).
+
+þ Option to make Next and Previous word mode to the start of the word only.
+
+þ Option to put Mister ED into 43/50 line mode when using a EGA/VGA video card.
+
+þ Default search options can now be recorded in the environment.
+
+þ Optional pulldown menus.
+
+þ Allow the optional use of Enhanced keyboard calls for more compatibility
+  with keyboard enhancers, OS/2, and the use of F11 and F12.
+
+þ Enhanced keyboard calls (for F11 and F12) can conflict with some of the
+  TSR programs (i.e. SideKick and SuperKey).
+
+
+File Lists
+----------
+þ You can now intersperse multiple paths.
+
+þ You can use "!" to not a file mask.
+
+þ When creating a file list from wildcards, directories are always sorted
+  to the beginning of the file list.
+
+þ In <Shift F2> "+" and "-" will move to the next and previous file.
+
+þ The path must be included with each entry in the file list that references
+  a different directory than the current one.  This stems from the ability
+  to search multiple directories.
+
+
+Macros
+------
+þ Use <Alt => to bring up the macros menu.
+
+þ Use <Alt -> to stop any macro operation (i.e. save a macro).
+
+þ You can use <Ctrl O> to force the data mode to Overlay.  This is great for   |
+  starting a macro in a known state.					       |
+									       |
+þ You can use <Ctrl X> to force an exit of screen mode into command mode.      |
+									       |
+
+Markers
+-------
+þ The markers are now dynamic.
+
+þ Press <Enter> by itself to assign the cursor position to the next
+  available marker (if an unused one is available).
+
+þ When going a line <Enter> by itself will send you to the last marker used.
+
+þ Mister ED remembers the last place you typed and places an automatic
+  marker there.
+
+
+Miscellaneous
+-------------
+þ Some new print options after selecting text, as well as the complete file
+  can be printed from command mode.
+
+þ Better on-line help.	Also the help in screen-mode has been updated to
+  list all of the new commands.
+
+þ Files can be loaded as unmodifiable (no modifications are allowed to the     |
+  file).								       |
+
+þ You can save read only (and hidden) files.  You will be warned accordingly.
+
+þ Optionally, read-only files can be automatically loaded as unmodifiable.     |
+									       |
+þ "Modifiabilty" can be set after the file is loaded from either the File Menu |
+  or Command Mode.  This is great if you forget or change your mind about not  |
+  being able to modify your file.					       |
+
+
+New Commands
+------------
+þ Use <Ctrl-C> to invoke condensed mode.  This mode display all of the
+  lines in the file start in column that are not comments.
+
+þ Use <Ctrl-G> to re-execute the last search, replace command.	The arrow just |
+  to the left of "AI" will tell you what direction the command will travel.    |
+									       |
+þ Use <Ctrl-M> to re-mark the last blocked or selected area.		       |
+									       |
+þ Use <Ctrl-J> to move the cursor to the top and the bottom of the screen.
+
+þ Press <Ctrl-Tab> to "enter" a tab.
+
+þ The Multi-View feature allows the user to have multiple windows for the
+  same file.  Invoke this feature from the command line by pressing <M>.
+
+
+Prompts
+-------
+þ You can now use up and down arrow in menus with multiple prompts.
+
+þ You can use "+" and "-" in numeric fields to automatically increment and
+  decrement the numerical value.
+
+þ Use <Ctrl-G> at the search and load prompts to select from a list of
+  previous entries.
+
+þ You can use F8 and DEL to delete entries from the previous entries list.     |
+
+
+Search
+------
+þ Regular Expressions.
+
+þ You can use C notation for special control characters (i.e. "\t" for tab).
+
+þ Use <Ctrl-G> at the search prompt to display a list of search patterns.
+
+
+Select
+------
+þ Use <Ctrl-J> when selecting text to go to the beginning and the end
+  of the text that has been selected.
+
+þ You can now perform a search and replace within the text that has been
+  selected.
+
+þ You can use <Ctrl-G> to recall the last selection.
+
+þ All of the menu commands are now "hot".
+
+þ "Modify-Fill" allows you to fill a block with any desired character.
+
+
+Search and Replace
+------------------
+þ You can use a <CR> at the beginning or the end of the search and/or replace
+  patterns.
+
+þ You can now have multiple replace patterns.
+
+þ If verify is turned off then the display won't be updated.
+
+þ No error message when the search pattern isn't found if at least one
+  pattern was already found.
+
+þ The display will be scrolled horizontally if the pattern found is on the
+  "edge" of the display.
+
+þ Faster parsing (only a true hacker will appreciate this).
+
+
+Support Programs							       |
+----------------							       |
+þ Detab now will untab the full file not just stopping at the first EOF marker |
+  found.								       |
+									       |
+þ The is a NEW and whizzy manual printing program called of all things	       |
+  "MANUAL". The manual has been expanded to include explanations of error      |
+  messages.  "MANUAL" will now translate line drawing and extened ascii        |
+  characters for printing.						       |
+									       |
+þ For those of you who are registered users there is a configuration program,  |
+  that allows you to change the screen colors and other bosso stuff.	       |
+									       |
+									       |
+Token Match
+-----------
+þ A different token match rule is loaded depending on the file extension.
+
+þ Now can match "IF=ELSE=ENDIF".
+
+þ "COMMENT"s in ".ASM" files are supported.
+
+þ If a pattern is not found in the token list the next occurrence of the
+  pattern is searched for.
+
+
+Windows
+-------
+þ Use <Alt-0> to select a window to go to; or unhide all windows.
+
+þ Use <Ctrl-H> to "hide" a window.
+
+þ Use <Ctrl-Z> to "zoom" the window display.
+
+þ Dirty flag on the status line.
+
+þ New improved colors.
+
+þ Caps and Num-Lock indicators.
+
+
+			      *******************
+			      *  Version  2.3	*
+			      *******************
+
+Improved Performance and Capability
+-----------------------------------
+þ The caching algorithm now applies to all of the windows instead
+  of only the current window (i.e. no irritating disk i/o when you
+  change windows with Ctrl-PgUp or Ctrl-PgDn).
+
+þ You can now have up to nine windows.
+
+þ Reading a file is about 10% faster.
+
+þ You can now edit files that contain up to 64,000 lines.
+
+þ The help is now kept in a separate file on disk.
+
+þ The maximum line length is now 255 characters instead of 170 characters.
+
+
+New Features
+------------
+þ Compare Mode	    - This command is used to compare the files in the
+                      various windows.  To invoke "compare mode" press
+		      <Ctrl-K>.  To exit, simply press <Esc>.
+
+                      After invoking compare mode the "current line" in
+		      each window will be highlighted and an
+		      instructional message will be displayed on the
+		      bottom of the screen.  At this point you can use
+		      all of the usual cursor and window commands to
+                      select the "starting line" in each window.  When
+		      you are ready to start the compare simply press
+		      <Return>.  If a mismatch is detected then the
+		      erroneous lines will be centered and highlighted
+		      in each window and an error message will be
+                      "flashed" on the bottom of the screen.
+
+		      Note: If the screen is split then only the windows
+			    that have at least one line showing will be
+			    compared.
+
+þ Link Mode         - This command is used to "link" the windows
+		      together so that some of the cursor commands
+		      (page up, page down, left arrow, right arrow,
+		      etc.) apply to all of the windows.  To enter
+                      "link mode" press <Ctrl-L>.  To exit, simply
+		      press <Esc>.
+
+þ Token Match       - This command is used to find the "token" which
+                      corresponds to the "token" at the cursor.  For
+		      example, this command could be used to find the
+                      "End" that corresponds to a "Begin".
+
+                      If the word at the cursor is not a "token" then
+		      the next occurrence of it will be searched for.
+
+		      This command references a list which indicates
+		      which words are tokens and which tokens
+		      correspond to each other.  This list is maintained
+		      in the Environment section where it can be
+		      modified.
+
+þ Help Index	    - Whenever you invoke help for a specific command
+                      or "mode" you can now invoke a "help index" by
+		      pressing <Shift-F1>.  The index will allow you
+		      to select help for any of the commands and modes
+		      that are documented.
+
+þ Modified Files    - This command is used to see if the files in the
+		      various windows have been modified.  It is invoked
+		      by pressing <Alt-0>.  When invoked a window
+		      containing the file names (and if necessary the
+		      word modified) for all of the windows will be
+		      displayed.
+
+þ Environment	    - There are some new configuration parameters in
+		      the Environment section.	They are as follows.
+
+		      Screen Default - This is default for the screen
+				       display for multiple files
+				       (F = full screen, H = horizontal
+					split, V = vertical split).
+
+                      Token List     - This is the "list of tokens"
+				       that is to be used by the find
+				       matching token command.
+
+		      Support Path   - This is the path for the help
+				       and macro files.
+
+þ Vertical Split    - There are now three states for the full/split
+		      screen toggle (<Ctrl-W>).  They are, vertical
+		      split, horizontal split, and full screen.
+
+þ Line Drawing	    - You can use <Ctrl-D> to invoke a line drawing
+		      mode.
+
+þ Spell Checking    - Providing that the Turbo Lightning Spell Check has
+		      been loaded as a resident program, you can now
+		      spell check words that have been selected in
+                      either "Block Mode" or "Select Mode".
+
+þ Block Mode Adjust - After selecting a block of text in "block mode"
+                      you can now press "A" so as to "shift" the block
+		      of text to the right or left.  The block is
+		      shifted by using the left and right arrow keys.
+
+þ Append Buffer     - After selecting text in either "block mode" or
+                      "select mode" you can now "append" the selected
+		      text to the paste buffer.  This is accomplished by
+                      selecting the text then pressing "+" in response
+                      to the options prompt.  After pressing "+" you
+                      will be prompted to "copy", "delete", or "kill"
+		      the selected text.
+
+þ Undo Line Changes - You can now press <Ctrl-U> to restore the contents
+		      of the current line.
+
+þ Do Last Replace   - When you are performing a search and replace you
+                      can now press "L" in response to the replace
+		      options prompt to replace the pattern and then
+		      abort the search and replace.
+
+
+Interface Improvements
+----------------------
+þ You can now use the scroll keys (<F3>, <F4>, <Shift-F3>, <Shift-F4>) to
+  scroll the screen display when you are entering data for a series of
+  prompt(s) in a menu (i.e. prompts for the search and replace command).
+  This can be very convenient when the prompts obscure part of the text
+  in a window.
+
+þ When you try to exit WBE and at least one file has been modified then
+  a "window" containing each file name being edited (and a modification
+  indicator) will be displayed and you will be prompted to verify if
+  you really want to exit.
+
+þ Error messages which require an operator response are now displayed
+  in a dialogue box.
+
+
+Limitations
+-----------
+þ This release has some debug code in it which constantly verifies
+  the correctness of some of the key data structures.  To turn this
+  debug code off press <Ctrl-F5>  (the debug toggle key) while in
+  "screen mode" (a message indicating the state of the debug toggle
+  will appear on the bottom of the screen).
+
+þ The "token list" that can be modified in the environment section
+  is not parsed for correct syntax.  So if an invalid syntax is
+  entered it could cause the program to crash.	This will eventually
+  be fixed.
+
+þ The name of the help file "MR_ED.HLP" must not be changed.
+
+þ Currently the compare in "compare mode" is case insensitive and
+  it ignores spaces and tabs (i.e. "jon" would match "  JOn").  These
+  stipulations will eventually become operator configurable.
+
+
+Bugs Fixed
+----------
+þ The bug which displayed the infamous message "Oh s--t, you got this
+  error." has been fixed.  That bug manifested when there was
+  insufficient disk space for the scratch files that were being dumped
+  out to the disk.
+
+þ Replacing a one character search pattern with "nothing" now works
+  correctly.
+
+þ Search for multiple one character search patterns now works correctly.
+
+
+
+			      *******************
+			      *  Version  2.2	*
+			      *******************
+
+þ Versions prior to 2.3 were not in the public domain so release notes were
+  not maintained.
+

@@ -1,0 +1,18 @@
+form {
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+
+    box-shadow: -1px 3px 5px 4px rgba(193,193,193,0.75);
+    -webkit-box-shadow: -1px 3px 5px 4px rgba(193,193,193,0.75);
+    -moz-box-shadow: -1px 3px 5px 4px rgba(193,193,193,0.75);
+}
+
+#visibility {
+    position: absolute;
+    transform: translate(700px, -33px);
+}
+
+#visibility:hover {
+    cursor: pointer;
+}

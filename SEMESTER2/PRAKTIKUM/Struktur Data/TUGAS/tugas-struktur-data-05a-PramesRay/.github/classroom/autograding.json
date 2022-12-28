@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Operasi standar linked list",
+      "setup": "",
+      "run": "make test spec=\"[case_1]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Nested linked list",
+      "setup": "",
+      "run": "make test spec=\"[case_2]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}

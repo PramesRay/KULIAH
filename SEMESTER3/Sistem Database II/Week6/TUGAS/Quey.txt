@@ -1,0 +1,172 @@
+[CREATE TABLE]=====================================================
+
+CREATE TABLE IDENTITAS
+(
+NAMA VARCHAR(50),
+ANGKATAN VARCHAR(10),
+KONTAK VARCHAR(20)
+);
+
+
+CREATE TABLE DIVISI
+(
+NAMA VARCHAR(50),
+BIDANG VARCHAR(10),
+NAMA_DIVISI(50),
+JABATAN VARCHAR(50),
+);
+
+
+CREATE TABLE DESKRIPSI_DIVISI
+(
+DIVISI VARCHAR(50),
+DESKRIPSI VARCHAR(500)
+);
+
+
+
+[INSERT TABLE]=====================================================
+
+INSERT INTO IDENTITAS VALUES
+(
+'Deani Puteri Virdiana',
+'2020',
+'Line: deani_pv'
+);
+
+INSERT INTO IDENTITAS VALUES
+(
+'Felicia Natania Lingga',
+'2021',
+'Line: felicianl'
+);
+
+INSERT INTO IDENTITAS VALUES
+(
+'Wildan Hanif Musyaffa',
+'2020',
+'Line: wildanhanf'
+);
+
+INSERT INTO IDENTITAS VALUES
+(
+'Andaru Danurdara Wibisana',
+'2020',
+'Line: andaru73'
+);
+
+INSERT INTO IDENTITAS VALUES
+(
+'Aliya Sania',
+'2021',
+'Line: liashin27'
+);
+
+INSERT INTO IDENTITAS VALUES
+(
+'Raditya Muhamad Lacavi',
+'2021',
+'Line: raditya_ml'
+);
+
+INSERT INTO IDENTITAS VALUES
+(
+'Chairal Octavyanz Tanjung',
+'2021',
+'Line: chairaloct'
+);
+
+
+INSERT INTO IDENTITAS VALUES
+(
+'Wafi Fahruzzaman',
+'2020',
+'Line: wafifz'
+);
+
+INSERT INTO IDENTITAS VALUES
+(
+'Hanifan Ayusti Khairunnisa',
+'2020',
+'Line: suketicantik'
+);
+
+INSERT INTO IDENTITAS VALUES
+(
+'Zahran Hanif Fathanmubin',
+'2020',
+'Line: zahranhanif24'
+);
+
+INSERT INTO IDENTITAS VALUES
+(
+'Irfan Kamal',
+'2020',
+'Line: dairly221'
+);
+
+
+INSERT INTO IDENTITAS VALUES
+(
+'Lazia Firli Adlisnandar',
+'2021',
+'Line: laziafirlian'
+);
+
+INSERT INTO IDENTITAS VALUES
+(
+'Akmal Azzary Megaputra',
+'2021',
+'Line: amegaputra'
+);
+
+INSERT INTO IDENTITAS VALUES
+(
+'Muhammad Ikhsan Fadhilah',
+'2021',
+'Line: ikhsan_fa24'
+);
+
+=========================================
+
+INSERT INTO DESKRIPSI_DIVISI VALUES
+(
+'Divisi Acara',
+'Bertanggung jawab untuk membuat konsep acara, Membuat TOR dan Juknis, dan Membuat rancangan teknis detail'
+);
+
+INSERT INTO DESKRIPSI_DIVISI VALUES
+(
+'Divisi Sarana & Prasarana',
+'Bertanggung jawab atas penyedia sarana dan prasarana untuk berjalannya CBS 2022 dan Membuat discord peserta dan panitia'
+);
+
+INSERT INTO DESKRIPSI_DIVISI VALUES
+(
+'Divisi Materi',
+'Menyiapkan materi untuk CBS 2022 dan Menghubungi pemateri untuk CBS 2022'
+);
+
+INSERT INTO DESKRIPSI_DIVISI VALUES
+(
+'Divisi Kasuh',
+'Memberi muatan kepada peserta CBS, Mendampingi dan mengapresisasi peserta CBS, dan Mengevaluasi kesalahan yang dilakukan pesrta CBS'
+);
+
+INSERT INTO DESKRIPSI_DIVISI VALUES
+(
+'Divisi Asesor',
+'Membuat metode penilaian beserta tekniknya, Membuat juklak penilaian, dan Mengolah nilai peserta'
+);
+
+INSERT INTO DESKRIPSI_DIVISI VALUES
+(
+'Divisi Publikasi, Dokumentasi, dan Desain',
+'Mempublikasi informasi CBS kepada peserta CBS, Mendokumentasi kegiatan CBS 2022, dan Memenuhi kebututan desain dan video untuk kebutuan CBS'
+);
+
+INSERT INTO DESKRIPSI_DIVISI VALUES
+(
+'Divisi Dankom',
+'Mencari metode pencarian dana yang akan dilakukan oleh seluruh panitia dan Membuat peraturan panita dan mengawasi panitia'
+);

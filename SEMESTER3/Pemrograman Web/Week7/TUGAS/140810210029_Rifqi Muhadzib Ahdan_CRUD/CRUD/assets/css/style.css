@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+:root{
+    --bidong : #232249;
+    --oren : #e8523a;
+    --ungu : #6e2262;
+    --biru : #205295;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    text-align: center;
+    font-family: 'Poppins'; 
+}
+.satu{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.dua{
+    color: var(--oren);
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.box{
+    background-color: var(--bidong);
+    margin: auto;  
+    margin-top: 40px;
+    max-width: 70%;
+    border-radius: 10px;
+    padding: 40px;
+    color: var(--oren);
+}
+.btn-custom{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    border-radius: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    color: white;
+}
+.create{
+    background-color: var(--oren);
+    margin-left: 0;
+}
+table {
+    border-collapse: collapse;
+    border: white;
+}
+tr {
+    transition: all .2s ease-in;
+    cursor: pointer;
+    background-color: white;
+}
+tr:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+td {
+    font-family: 'Poppins';
+    color: var(--bidong);
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+#header {
+    background-color: var(--oren);
+    color: #fff;
+    font-family: 'Poppins';
+}
+@media only screen and (max-width: 1200px) {
+    table {
+        width: 45%;
+    }
+}

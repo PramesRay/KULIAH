@@ -1,0 +1,198 @@
+<!--========================================
+  Nama    : Prames Ray Lapian
+  NPM     : 140810210059
+  Program : bio.html
+  ========================================-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Identitas Mahasiswa</title>
+
+    <style>
+      body {
+        background-color: antiquewhite;
+        text-align: center;
+        align-items: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      body > h1 {
+        background-color: bisque;
+        padding: 10px;
+      }
+
+      .btnsubmit {
+        background-color: bisque;
+        padding: 5px;
+        border-radius: 100px;
+      }
+
+      .btnsubmit:hover {
+        background-color: darkgoldenrod;
+        transition: all 0.2s ease-in-out;
+      }
+
+      .formstyle > div > input {
+        border-width: 1px;
+        border-radius: 5px;
+      }
+      .formstyle > div > textarea {
+        border-width: 1px;
+        border-radius: 5px;
+      }
+      .formstyle > div > div > input {
+        border-width: 1px;
+        border-radius: 5px;
+      }
+      .formstyle > div > div > div > input {
+        border-width: 1px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form Identitas Mahasiswa</h1>
+    <form class="formstyle" name="identity" method="post">
+      <div>
+        <label for="npm">&nbsp;&nbsp;NPM:</label>
+        <input type="text" id="npm" name="npm" autocomplete="off" required />
+      </div>
+
+      <div>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" autocomplete="off" required />
+      </div>
+
+      <div>
+        <label for="alamat">Alamat:</label>
+        <textarea
+          name="alamat"
+          id="alamat"
+          rows="3"
+          autocomplete="off"
+          required></textarea>
+        &nbsp;
+      </div>
+
+      <div>
+        <div>
+          <label for="tmpt_lahir">&nbsp;Tempat Lahir:</label>
+          <input
+            type="text"
+            id="tmpt_lahir"
+            name="tmpt_lahir"
+            autocomplete="off"
+            required />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div>
+          <label for="tgl_lahir">&nbsp;&nbsp;&nbsp;&nbsp;Tanggal Lahir:</label>
+          <input type="date" id="tgl_lahir" name="tgl_lahir" required />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+      </div>
+
+      <div>
+        <label for="jenis_kelamin"></label>
+        <div id="genders">
+          <div>
+            &nbsp;&nbsp;Jenis Kelamin:
+            <input
+              type="radio"
+              id="laki"
+              class="btn_check"
+              name="jk"
+              value="Laki Laki"
+              required />
+            <label for="laki">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 20 10">
+                <path
+                  fill-rule="evenodd"
+                  d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z" />
+              </svg>
+              Laki-Laki
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="perempuan"
+              class="btn_check"
+              name="jk"
+              value="Perempuan" />
+            <label for="perempuan">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 20 10">
+                <path
+                  fill_rule="evenodd"
+                  d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z" />
+              </svg>
+              Perempuan
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <label for="hobi">&nbsp;&nbsp;hobi: </label>
+        <input type="text" id="hobi" name="hobi" autocomplete="off" required />
+      </div>
+
+      <button
+        class="btnsubmit"
+        name="button"
+        type="button"
+        onclick="output()"
+        value="proses">
+        Submit
+      </button>
+      <br />
+      <br />
+      <br />
+
+      <table align="center" border="solid">
+        <thead>
+          <tr>
+            <th>NPM</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Tempat Lahir</th>
+            <th>Tanggal Lahir</th>
+            <th>Jenis Kelamin</th>
+            <th>Hobi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" name="Outputnpm" /></td>
+            <td><input type="text" name="Outputnama" /></td>
+            <td><input type="text" name="Outputalmt" /></td>
+            <td><input type="text" name="Outputtmptlhr" /></td>
+            <td><input type="text" name="Outputtgllhr" /></td>
+            <td><input type="text" name="Outputjk" /></td>
+            <td><input type="text" name="Outputhobi" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+
+    <script src="bio.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
