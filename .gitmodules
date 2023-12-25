@@ -1,0 +1,15 @@
+[submodule "GLUT-REPO"]
+	path = GLUT-REPO
+	url = https://github.com/PramesRay/GLUT-REPO
+[submodule "59-Kripto23"]
+	path = 59-Kripto23
+	url = https://github.com/PramesRay/59-Kripto23
+[submodule "website-cryptography-with-elgamal-algorithm"]
+	path = website-cryptography-with-elgamal-algorithm
+	url = https://github.com/rnggptr10/website-cryptography-with-elgamal-algorithm
+[submodule "elgamal-demo"]
+	path = elgamal-demo
+	url = https://github.com/debjitbis08/elgamal-demo
+[submodule "uaskripto"]
+	path = uaskripto
+	url = https://github.com/dafiibra/uaskripto

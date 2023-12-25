@@ -1,0 +1,16 @@
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\bin\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.exe
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\bin\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.deps.json
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\bin\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.runtimeconfig.json
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\bin\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.dll
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\bin\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.pdb
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5James.Form1.resources
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.csproj.GenerateResource.cache
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.AssemblyInfoInputs.cache
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.AssemblyInfo.cs
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.csproj.CoreCompileInputs.cache
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.dll
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\refint\Tugas5 Prames Ray Lapian - 140810210059.dll
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.pdb
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5 Prames Ray Lapian - 140810210059.genruntimeconfig.cache
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\ref\Tugas5 Prames Ray Lapian - 140810210059.dll

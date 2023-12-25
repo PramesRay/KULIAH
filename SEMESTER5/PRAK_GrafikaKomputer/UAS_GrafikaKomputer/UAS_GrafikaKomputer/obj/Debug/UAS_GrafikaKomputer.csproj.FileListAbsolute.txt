@@ -1,0 +1,10 @@
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\UAS_GrafikaKomputer\UAS_GrafikaKomputer\bin\Debug\UAS_GrafikaKomputer.exe.config
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\UAS_GrafikaKomputer\UAS_GrafikaKomputer\bin\Debug\UAS_GrafikaKomputer.exe
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\UAS_GrafikaKomputer\UAS_GrafikaKomputer\bin\Debug\UAS_GrafikaKomputer.pdb
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\UAS_GrafikaKomputer\UAS_GrafikaKomputer\obj\Debug\UAS_GrafikaKomputer.csproj.AssemblyReference.cache
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\UAS_GrafikaKomputer\UAS_GrafikaKomputer\obj\Debug\UAS_GrafikaKomputer.Form1.resources
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\UAS_GrafikaKomputer\UAS_GrafikaKomputer\obj\Debug\UAS_GrafikaKomputer.Properties.Resources.resources
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\UAS_GrafikaKomputer\UAS_GrafikaKomputer\obj\Debug\UAS_GrafikaKomputer.csproj.GenerateResource.cache
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\UAS_GrafikaKomputer\UAS_GrafikaKomputer\obj\Debug\UAS_GrafikaKomputer.csproj.CoreCompileInputs.cache
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\UAS_GrafikaKomputer\UAS_GrafikaKomputer\obj\Debug\UAS_GrafikaKomputer.exe
+D:\PRAMES\PERKULIAHAN\SEMESTER5\PRAK_GrafikaKomputer\UAS_GrafikaKomputer\UAS_GrafikaKomputer\obj\Debug\UAS_GrafikaKomputer.pdb

@@ -1,0 +1,16 @@
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\bin\Debug\net6.0-windows\Tugas4.exe
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\bin\Debug\net6.0-windows\Tugas4.deps.json
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\bin\Debug\net6.0-windows\Tugas4.runtimeconfig.json
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\bin\Debug\net6.0-windows\Tugas4.dll
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\bin\Debug\net6.0-windows\Tugas4.pdb
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\obj\Debug\net6.0-windows\Tugas4.Form1.resources
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\obj\Debug\net6.0-windows\Tugas4.csproj.GenerateResource.cache
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\obj\Debug\net6.0-windows\Tugas4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\obj\Debug\net6.0-windows\Tugas4.AssemblyInfoInputs.cache
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\obj\Debug\net6.0-windows\Tugas4.AssemblyInfo.cs
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\obj\Debug\net6.0-windows\Tugas4.csproj.CoreCompileInputs.cache
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\obj\Debug\net6.0-windows\Tugas4.dll
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\obj\Debug\net6.0-windows\refint\Tugas4.dll
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\obj\Debug\net6.0-windows\Tugas4.pdb
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\obj\Debug\net6.0-windows\Tugas4.genruntimeconfig.cache
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas4\Tugas4\obj\Debug\net6.0-windows\ref\Tugas4.dll

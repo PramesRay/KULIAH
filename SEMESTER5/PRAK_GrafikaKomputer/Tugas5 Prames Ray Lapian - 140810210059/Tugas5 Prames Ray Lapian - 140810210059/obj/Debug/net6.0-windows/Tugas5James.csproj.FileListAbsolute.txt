@@ -1,0 +1,16 @@
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\bin\Debug\net6.0-windows\Tugas5James.exe
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\bin\Debug\net6.0-windows\Tugas5James.deps.json
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\bin\Debug\net6.0-windows\Tugas5James.runtimeconfig.json
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\bin\Debug\net6.0-windows\Tugas5James.dll
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\bin\Debug\net6.0-windows\Tugas5James.pdb
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5James.Form1.resources
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5James.csproj.GenerateResource.cache
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5James.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5James.AssemblyInfoInputs.cache
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5James.AssemblyInfo.cs
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5James.csproj.CoreCompileInputs.cache
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5James.dll
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\refint\Tugas5James.dll
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5James.pdb
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\Tugas5James.genruntimeconfig.cache
+C:\Users\james\OneDrive\Dokumen\Codes\Grafkom\Tugas5James\Tugas5James\obj\Debug\net6.0-windows\ref\Tugas5James.dll

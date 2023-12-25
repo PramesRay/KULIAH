@@ -1,0 +1,10 @@
+D:\PRAMES\PERKULIAHAN\SEMESTER5\MK_GrafikaKomputer\UTS\UTS\obj\Debug\UTS.csproj.AssemblyReference.cache
+D:\PRAMES\PERKULIAHAN\SEMESTER5\MK_GrafikaKomputer\UTS\UTS\obj\Debug\UTS.Form1.resources
+D:\PRAMES\PERKULIAHAN\SEMESTER5\MK_GrafikaKomputer\UTS\UTS\obj\Debug\UTS.Properties.Resources.resources
+D:\PRAMES\PERKULIAHAN\SEMESTER5\MK_GrafikaKomputer\UTS\UTS\obj\Debug\UTS.csproj.GenerateResource.cache
+D:\PRAMES\PERKULIAHAN\SEMESTER5\MK_GrafikaKomputer\UTS\UTS\obj\Debug\UTS.csproj.CoreCompileInputs.cache
+D:\PRAMES\PERKULIAHAN\SEMESTER5\MK_GrafikaKomputer\UTS\UTS\bin\Debug\UTS.exe.config
+D:\PRAMES\PERKULIAHAN\SEMESTER5\MK_GrafikaKomputer\UTS\UTS\bin\Debug\UTS.exe
+D:\PRAMES\PERKULIAHAN\SEMESTER5\MK_GrafikaKomputer\UTS\UTS\bin\Debug\UTS.pdb
+D:\PRAMES\PERKULIAHAN\SEMESTER5\MK_GrafikaKomputer\UTS\UTS\obj\Debug\UTS.exe
+D:\PRAMES\PERKULIAHAN\SEMESTER5\MK_GrafikaKomputer\UTS\UTS\obj\Debug\UTS.pdb
